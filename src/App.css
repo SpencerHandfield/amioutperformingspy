@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0D0D0D;
+}
+
+h1 {
+  color: #f5f5f7;
+  text-align: center;
+  position: relative;
+  top:100px;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+input {
+  display: block; /* 1. oh noes, my inputs are styled as block... */
+}
+
+.form-field{
+  border: 3px solid #7e7e7e9f;
+  background-color: #242424;
+  color: #f5f5f7;
+  margin-right: 5px;
+  width: 50%;
+}
+
+.form-field:focus{
+  border: 3px solid #f5f5f7;
+  background-color: #242424;
+  color: #f5f5f7;
+  margin-right: 5px;
+  outline: none;
+  box-shadow: none;
+}
+.form-button{
+  border: 3px solid #7e7e7e9f;
+  background-color: #242424;  
+  color: #f5f5f7;
+  padding: 6px 12px;
+  border-radius: 2px;
+}
+.form-button:active{
+  background-color: #7e7e7e9f; 
+}
+.wrapper {
+  background: #242424;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px #7e7e7e14;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.alert-custom {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  inline-size: 50%;
+}
+
+.radio {
+  display: none;
+}
+
+.label {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  color:#f5f5f7
+}
+#year1:checked ~ .label-1,
+#year2:checked ~ .label-2,
+#year5:checked ~ .label-5,
+#year10:checked ~ .label-10
+{
+  background-color: #7e7e7e9f;
+}
+
+.alert {
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}

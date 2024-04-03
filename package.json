@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "homepage": "https://spencerhandfield.github.io/amioutperformingspy/",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://flask-service.v81km8ek1r70a.us-east-2.cs.amazonlightsail.com",
@@ -20,9 +20,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -77,7 +77,7 @@ function Chart() {
           "user_ticker": ticker,
           "user_year": year
       }
-      fetch("/views/home", {
+      fetch("https://flask-service.v81km8ek1r70a.us-east-2.cs.amazonlightsail.com/views/home", {
           'method': 'POST',
           body: JSON.stringify(json)
       }).then(

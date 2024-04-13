@@ -1,5 +1,6 @@
 import { Line } from 'react-chartjs-2'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import Popup from './Popup'
 import React, {useState, useEffect} from 'react'
 import {
@@ -134,11 +135,12 @@ function Chart() {
         }
       }
   }
-
+  
   return (
     <div class="container-fluid">
-      <h1>Am I outperforming SPY?</h1>
-        <div class = "row">
+        <h1>Am I outperforming SPY?</h1>
+        <i class="bi bi-info-circle" id="icon" data-bs-toggle="tooltip" title="Largely used as a litmus test for long term growth, compare various stocks such as MSFT, NVDA or AAPL and see if you're smarter than the market!"></i>
+      <div class = "row">
             <div class="col-7" id="chart-col" align="center">
               <div class="wrapper">
                   <div class="chart-div">

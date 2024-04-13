@@ -9,6 +9,7 @@
     "@types/highcharts": "^7.0.0",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "chart.js": "^4.4.1",
     "highcharts": "^11.3.0",
     "highcharts-react-official": "^3.2.1",

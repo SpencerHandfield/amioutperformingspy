@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/amioutperformingspy/static/css/main.723922d7.css",
-    "main.js": "/amioutperformingspy/static/js/main.ef9262de.js",
+    "main.js": "/amioutperformingspy/static/js/main.e16ac695.js",
     "static/js/453.69f3745b.chunk.js": "/amioutperformingspy/static/js/453.69f3745b.chunk.js",
     "index.html": "/amioutperformingspy/index.html",
     "main.723922d7.css.map": "/amioutperformingspy/static/css/main.723922d7.css.map",
-    "main.ef9262de.js.map": "/amioutperformingspy/static/js/main.ef9262de.js.map",
+    "main.e16ac695.js.map": "/amioutperformingspy/static/js/main.e16ac695.js.map",
     "453.69f3745b.chunk.js.map": "/amioutperformingspy/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.723922d7.css",
-    "static/js/main.ef9262de.js"
+    "static/js/main.e16ac695.js"
   ]
 }

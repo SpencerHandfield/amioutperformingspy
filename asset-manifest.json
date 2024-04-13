@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/amioutperformingspy/static/css/main.723922d7.css",
-    "main.js": "/amioutperformingspy/static/js/main.e16ac695.js",
+    "main.css": "/amioutperformingspy/static/css/main.aaa90fb0.css",
+    "main.js": "/amioutperformingspy/static/js/main.c0b0f4ee.js",
     "static/js/453.69f3745b.chunk.js": "/amioutperformingspy/static/js/453.69f3745b.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/amioutperformingspy/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/amioutperformingspy/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/amioutperformingspy/index.html",
-    "main.723922d7.css.map": "/amioutperformingspy/static/css/main.723922d7.css.map",
-    "main.e16ac695.js.map": "/amioutperformingspy/static/js/main.e16ac695.js.map",
+    "main.aaa90fb0.css.map": "/amioutperformingspy/static/css/main.aaa90fb0.css.map",
+    "main.c0b0f4ee.js.map": "/amioutperformingspy/static/js/main.c0b0f4ee.js.map",
     "453.69f3745b.chunk.js.map": "/amioutperformingspy/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.723922d7.css",
-    "static/js/main.e16ac695.js"
+    "static/css/main.aaa90fb0.css",
+    "static/js/main.c0b0f4ee.js"
   ]
 }

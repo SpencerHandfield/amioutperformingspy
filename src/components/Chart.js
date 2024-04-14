@@ -153,9 +153,10 @@ function Chart() {
                 <div>
                     <form onSubmit={handleSubmit}>
                       <div class="form-div">
-                        <input type="text" class="form-control form-field" onChange={updateTicker}></input>
+                        <input type="text" class="form-control" placeholder="Ticker Symbol" onChange={updateTicker}></input>
                         <input type="submit" class="form-button" name="btn" value="Submit"></input>
                       </div>
+                      <label for="period" class="label-period">Period:</label>
                       <input type="radio" id="year1"name="btn" class="radio" value="1" onChange={updateYear} defaultChecked></input>
                       <label for="year1" class="label label-1">1Y</label>
                       <input type="radio" id="year2" name="btn" class="radio" value="2" onChange={updateYear}></input>
